@@ -2,19 +2,16 @@ import math
 import stdio
 import sys
 
-...
+# this receives the input and declares it into a variable
+lat = float(sys.argv[1])
+log = float(sys.argv[2])
 
-x = float(sys.argv[1])
-y = float(sys.argv[2])
+# uses the equations to find the rectangular coordinates
+x = log
+y = math.log((1 + math.sin(math.radians(lat)))/(1 - math.sin(math.radians(lat))))/2
 
-x = math.radians(x)
-y = math.radians(y)
+x = str(x)
+y = str(y)
 
-x = math.log(x)
-y = math.log(y)
-
-
-print(x, y)
-# str = "" + x + " " + y
-# sys.stdout.write(str)
-
+# displays the output to the terminal
+stdio.writeln(x + " " + y)

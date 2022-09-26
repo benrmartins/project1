@@ -1,13 +1,14 @@
 import stdio
+import random
 import stdrandom
 import sys
 
 # Accept a (int) and b (int) as command-line arguments.
-a = ...
-b = ...
+a = int(sys.argv[1])
+b = int(sys.argv[2])
 
 # Set r to a random integer between a and b, obtained by calling stdrandom.uniformInt().
-r = ...
+r = random.randrange(a, b)
 
 # Write r to standard output.
-stdio.writeln(...)
+stdio.writeln(r)

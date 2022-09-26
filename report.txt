@@ -1,76 +1,114 @@
 1. Enter the number of hours it took you to complete the project between
    the <<< and >>> signs below (eg, <<<10>>>).
 
-   <<< >>>
+   <<<2.5>>>
    
 2. Enter the difficulty level (1: very easy; 5: very difficult) of the project
    between the <<< and >>> signs below (eg, <<<3>>>).
 
-   <<< >>>
+   <<<2>>>
 
 3. Did you receive help from anyone? List their names, status (classmate,
    CS110 grad, TA, other), and the nature of help received.
 
-   Name               Status       Help Received
-   ----               ------       -------------
+   Name               Status         Help Received
+   Austin             CS110 grad      discussed the problem Three Sort about the middle number
 
-   ...                ...          ...
+   Yoni               classmate      discussed the problem Mercator and getting the y
 
 4. Provide a short description of how you approached each problem, issues you
    encountered, and how you resolved those issues.
 
    Problem 1 (Day of the Week)
-      Approach: ...
+      Approach: First I used sys import to get the inputs from the terminal.
+      Then I used the equations in the writeup and converted it to python.
+      lastly I displayed the day into the terminal
 
-      Issues and resolution: ...
+      Issues and resolution: I had an issue in converting the equation into python code.
+      But I resolved it by using the math functions and reading the notes on it.
+      Another issue I had was that I put the equations correctly but there was a logic error
+      I fixed it by convicting the answer of the numbers I was dividing into an int beforehand.
+
 
    Problem 2 (Mercator Projection)
-      Approach: ...
+      Approach: First I used sys to get the inputs from the terminal.
+      Then I used the equations in writeup to the find the rectangular coordinates and
+      had to convert each input to degrees to radians. Lastly displayed the variables in string format
 
-      Issues and resolution: ...
+      Issues and resolution: my issue was that I did not realize I had to get the log of the equation. I solved it by I'm using the
+      math.log and wrapped the rest of the equation in its parenthesis
 
    Problem 3 (Great Circle Distance)
-      Approach: ...
+      Approach: I first got the inputs from the terminal. Then converted each of the inputs to radians.
+      After that I used the equation and converted it into python code.
+      displayed the answer I get onto the terminal
 
-      Issues and resolution: ...
+      Issues and resolution: One problem that I had to face is that I need to spit up the line because
+      it was too long. So I had to split the equation and made it into a variable. Since I knew I had to multiply
+      the whole equation by 6359.83, so I put it into a separate variable
 
    Problem 4 (Wind Chill)
-      Approach: ...
+      Approach: I needed to get the inputs from the terminal and put it into variables.
+      Then use the equations they have given me to put into a variable.
+      Display the variable w on the terminal using writeln
 
-      Issues and resolution: ...
+
+      Issues and resolution: The only issue of this project was that the equation that
+      I wrote was correct but the answer that in displayed was not. I realized I needed to put
+      parentheses between the number I am getting the power of which was v and .16
 
    Problem 5 (Gravitational Force)
-      Approach: ...
+      Approach: The first code I wrote was getting the inputs from the terminal. Then I made a variable of G.
+      Then used G and the equation to get the answer. Lastly I displayed the answer into the terminal.
 
-      Issues and resolution: ...
+      Issues and resolution: The problem I encounter was trying to get gravitational force and put it in the variable
+      I solved it by making G into a separate variable and multiplied it by the equation.
 
    Problem 6 (Snell's Law)
-      Approach: ...
+      Approach: First I need to get the inputs of the terminal into a float variable.
+      The convert the equation to python solve for 02. I had to convert O1 to radians the use the equation to solve 02.
+      Then converter 02 to degrees. Lastly display the input to the terminal.
 
-      Issues and resolution: ...
+      Issues and resolution: The main issue I faced was that I had was trying to figure which
+      variable needed to be changed into degrees and which needed to be radians. I fix that by using
+      trail and error and testing to find my answer 01 need to be radians and O2 needed to be degrees.
 
    Problem 7 (Gambler's Ruin)
-      Approach: ...
+      Approach: I needed to get the inputs into a float variables. Then I need to use the equations to get the
+      probabilities and contain them into a variable. Lastly I had to convert the variable into a string and display it.
 
-      Issues and resolution: ...
+      Issues and resolution: One issue that I had was that iit was hard to turn the equation into python format because it was so long.
+      I resolved it by taking my time and double-checking if I put the variables in the right places.
 
    Problem 8 (Waiting Time)
-      Approach: ...
+      Approach: I first got the inputs from the terminal and turn them into float variables.
+      The converted the equation they gave ime into python code. Lastly displayed that code onto the terminal in the correct format
 
-      Issues and resolution: ...
+      Issues and resolution: One problem that I faced was that I needed to make sure I displayed the variables in the correct way.
+      I resolved that by using a float variable and not an int like I did on my first try.
 
    Problem 9 (Die Roll)
-      Approach: ...
+      Approach: First I had to get the input into an int variable.Then I randomized the variable twice between the number 1 and the input.
+      After that I added the rwo numbers together and displayed the answer
 
-      Issues and resolution: ...
+      Issues and resolution: ONe problem that I had was that the output got an error when I put one in the input. It did that because
+      you can have a random number between 1 and 1. I solved that error by adding 1 to the input,
+      so it can randomize between 1 and the input.
 
    Problem 10 (Three Sort)
-      Approach: ...
+      Approach: First I contained the three inputs into a variable. The got the smallest and largest of the 3 values.
+      Then I added the three values together and subjected by the smallest and largest values to get the middle value.
+      After that I turned the variables into a string and displayed the answer.
 
-      Issues and resolution: ...
+      Issues and resolution: The issue I had that was I could not get the middle value using min and max functions.
+      But I resolved by discussing it with my friend who already taken that class,
+      and we discover that all I need to do was subtract the sum of the min and max value with the total to get the middle value
 
 5. List any other comments here. Feel free to provide any feedback on how
    much you learned from doing the assignment, and whether you enjoyed
    doing it.
 
+    In this project I learned alot about using math in python. I also learned the importance of using
+    parentheses while using equations in python I enjoyed this project because most of the problems were simple.
+    practicing writing code helped me get better at it.
    ...

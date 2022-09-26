@@ -6,4 +6,4 @@ name = str(sys.argv[1])
 age = str(sys.argv[2])
 
 # Write the message "name is age years old." to standard output.
-sys.stdout.write(name + " is " + age + " years old.")
+stdio.writeln(name + " is " + age + " years old.")
